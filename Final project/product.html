@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/script.js" defer></script>
+  <title>Product Detail - NovaAfriq</title>
+</head>
+<body>
+  <header>
+  <h1>NovaAfriq</h1>
+  <img src="assets/images/logo.png" alt="Logo" class="logo">
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="collections.html">Collections</a>
+    <a href="lookbook.html">Lookbook</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+  <main style="padding:2rem;">
+    <h1>Product Title</h1>
+    <p>Details about the product go here. Dynamic content can be loaded using JavaScript based on the ID parameter in the URL.</p>
+    <a href="collections.html" class="btn">Back to Collections</a>
+  </main>
+  <!-- Product Container -->
+  <div class="product-container">
+    <img id="product-image" src="assets/images/collection1.jpg" alt="Product Image">
+    <div class="product-info">
+      <h2 id="product-title">Loading...</h2>
+      <p id="product-desc"></p>
+      <p id="product-price"></p>
+
+      <div class="product-actions">
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" value="1" min="1">
+        <button id="add-to-cart">Add to Cart</button>
+      </div>
+
+      <div class="cart-summary" id="cart-summary">
+        Your cart is empty.
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 NovaAfriq. All rights reserved.</p>
+  </footer>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
