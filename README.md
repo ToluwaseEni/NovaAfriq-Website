@@ -50,13 +50,15 @@ Final project/
 
 ## 🚀 Live Demo
 
-View the live website here:  
-[**NovaAfriq on GitHub Pages**](https://YOUR_USERNAME.github.io/novaafriq-website/)
+View the live website here: 
+[**NovaAfriq on Netlify**]( https://quiet-moxie-7f6e01.netlify.app/)
 
 ---
 
 ## 🛠 How to Run Locally
 
-1. Clone the repository:  
+1. Clone the repository:  ```bash
+   git clone https://github.com/YOUR_USERNAME/novaafriq-website.git
+2. Open index.html in your browser or run using Live Server in VS Code.
    ```bash
    git clone https://github.com/YOUR_USERNAME/novaafriq-website.git
